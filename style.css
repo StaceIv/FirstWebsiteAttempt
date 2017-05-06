@@ -1,0 +1,64 @@
+body{
+	width: 80%;
+}
+
+a{
+	color: #FFFFFF;
+	text-shadow:  -1px -1px 0 #000,
+				   1px -1px 0 #000,
+				  -1px 1px 0 #000,
+				   1px 1px 0 #000;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #CCFFCC;
+}
+
+a:hover{
+	color: #22FF22;
+}
+
+p{
+	color: #FFFFFF;
+	text-shadow:  -1px -1px 0 #000,
+				   1px -1px 0 #000,
+				  -1px 1px 0 #000,
+				   1px 1px 0 #000;
+}
+
+.cols{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.Three{
+	width: 80%;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.aB{
+	border-left: 1px solid #000000;
+}
+
+#square{
+	background-color: #FFFFFF;
+	opacity: 0.9;
+	color: #000000;
+	opacity: default;
+	width: 80%;
+    padding: 25px;
+	opacity: 0.9;
+    margin: 100px;
+	border-radius: 25px;
+	padding: 25px;
+}
+
+#gradient{
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, blue); /* Standard syntax */
+}
